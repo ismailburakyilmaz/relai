@@ -1,0 +1,13 @@
+{
+  "name": "relai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yerel Codex ve Claude Code oturum dönüştürücü",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test test.cjs privacy.test.cjs"
+  },
+  "dependencies": {
+    "txcript": "0.14.4"
+  }
+}
